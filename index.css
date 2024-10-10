@@ -1,0 +1,25 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn {
+  margin-top: 5px;
+}
+
+.del-btn {
+  margin-left: 10px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.list_item {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
