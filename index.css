@@ -22,4 +22,12 @@ ul {
 .list_item {
   margin-bottom: 10px;
   list-style-type: none;
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  width: 330px;
 }

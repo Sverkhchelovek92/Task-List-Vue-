@@ -15,16 +15,15 @@
           v-bind:placeholder="holder"
           v-bind:value="inputValue"
           v-on:input="changeInput"
-          v-on:keypress="enterPress"
+          v-on:keypress.enter="addTask"
         />
       </div>
       <button class="btn" v-on:click="addTask">Add Task</button>
 
       <ul class="list">
         <li class="list_item" v-for="task in tasks">
-          {{task}}<button class="del-btn" v-on:click="deleteTask">
-            Delete Task
-          </button>
+          <div class="list_item_task">{{task}}</div>
+          <button class="del-btn" v-on:click="deleteTask">Delete</button>
         </li>
       </ul>
     </div>
